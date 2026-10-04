@@ -19,9 +19,9 @@ Links (ficam só no objeto de conteúdo, nunca espalhados pelo HTML):
 
 ## Estado atual
 
-**Segunda versão (visual enriquecido) construída, aguardando aprovação.** A primeira foi aprovada no visual, mas achada "simples demais". A segunda ganhou composição editorial em camadas, nova tipografia e motivos visuais próprios (ver "Linguagem visual adotada"). Todas as seções do brief estão prontas, com conteúdo real copiado do site Framer (serviços, e-book, depoimentos) e imagens provisórias geradas nos tons da paleta. As fotos e os serviços exatos ainda não chegaram: a troca deve ser só edição do `CONTENT` e dos arquivos em `assets/img/`, sem mexer no layout.
+**Aprovado e publicado em 2026-10-04.** Site no ar em https://pedromarinho213.github.io/santa-elegancia/ (GitHub Pages, repositório https://github.com/pedromarinho213/santa-elegancia, branch `main`, raiz). Fotos reais, 3 serviços com preços e oferta do e-book já estão no site. Pendências restantes de conteúdo em [docs/pendencias-conteudo.md](docs/pendencias-conteudo.md).
 
-Ordem de trabalho: (1) gerar o site completo com placeholders e abrir para conferência, (2) após aprovação, publicar no GitHub Pages. Passos curtos, prazo de 1 dia.
+Para atualizar o site: editar, conferir localmente, commitar e dar push na `main`. O GitHub Pages republica sozinho em cerca de 1 minuto.
 
 ## Stack e restrições
 
@@ -133,9 +133,12 @@ Todas com `loading="lazy"` (exceto o hero), `alt` descritivo, `width` e `height`
 | Revisar código antes de commitar | `/code-review` |
 | Verificar segurança antes de publicar | `/security-review` |
 
-## Publicação (depois da aprovação)
+## Publicação
 
-Repositório git já inicializado (branch `main`), sem remote. O `gh` CLI **não está instalado** nesta máquina. Para publicar é preciso instalar o GitHub CLI e autenticar, ou criar o repositório manualmente no GitHub e adicionar o remote. Depois: commit, push, ativar GitHub Pages (branch `main`, raiz) e informar a URL final.
+- GitHub CLI instalado (`C:/Program Files/GitHub CLI/gh.exe`), logado na conta `pedromarinho213`.
+- Remote `origin` = https://github.com/pedromarinho213/santa-elegancia.git. Pages servindo a `main` na raiz.
+- O `<head>` usa a URL absoluta do site em `og:url`, `og:image`, `twitter:image` e `canonical`. Se o endereço mudar (domínio próprio, por exemplo), atualizar os quatro.
+- As fotos originais enviadas (`assets/img/Vanessa foto*.jpg`, `Moda descomplicada.png`) ficam fora do git, via `.gitignore`.
 
 ## Linguagem visual adotada
 
