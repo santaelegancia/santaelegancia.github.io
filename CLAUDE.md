@@ -19,7 +19,7 @@ Links (ficam só no objeto de conteúdo, nunca espalhados pelo HTML):
 
 ## Estado atual
 
-**Aprovado e publicado em 2026-10-04.** Site no ar em https://pedromarinho213.github.io/santa-elegancia/ (GitHub Pages, repositório https://github.com/pedromarinho213/santa-elegancia, branch `main`, raiz). Fotos reais, 3 serviços com preços e oferta do e-book já estão no site. Pendências restantes de conteúdo em [docs/pendencias-conteudo.md](docs/pendencias-conteudo.md).
+**Aprovado e publicado em 2026-10-04.** Site no ar em https://santaelegancia.github.io/ (GitHub Pages, repositório https://github.com/santaelegancia/santaelegancia.github.io, branch `main`, raiz). Fotos reais, 3 serviços com preços e oferta do e-book já estão no site. Pendências restantes de conteúdo em [docs/pendencias-conteudo.md](docs/pendencias-conteudo.md).
 
 Para atualizar o site: editar, conferir localmente, commitar e dar push na `main`. O GitHub Pages republica sozinho em cerca de 1 minuto.
 
@@ -135,8 +135,8 @@ Todas com `loading="lazy"` (exceto o hero), `alt` descritivo, `width` e `height`
 
 ## Publicação
 
-- GitHub CLI instalado (`C:/Program Files/GitHub CLI/gh.exe`), logado na conta `pedromarinho213`.
-- Remote `origin` = https://github.com/pedromarinho213/santa-elegancia.git. Pages servindo a `main` na raiz.
+- GitHub CLI instalado (`C:/Program Files/GitHub CLI/gh.exe`), logado numa conta admin da organização `santaelegancia`.
+- Remote `origin` = https://github.com/santaelegancia/santaelegancia.github.io.git. Pages servindo a `main` na raiz.
 - O `<head>` usa a URL absoluta do site em `og:url`, `og:image`, `twitter:image` e `canonical`. Se o endereço mudar (domínio próprio, por exemplo), atualizar os quatro.
 - As fotos originais enviadas (`assets/img/Vanessa foto*.jpg`, `Moda descomplicada.png`) ficam fora do git, via `.gitignore`.
 

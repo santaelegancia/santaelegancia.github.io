@@ -15,8 +15,7 @@ Comprimir as fotos antes (JPG com até ~200 KB).
 
 ## Textos (`script.js` → `CONTENT`)
 - [x] Serviços substituídos pelos 3 novos, com preços (R$ 250, R$ 150, R$ 200) e e-book a R$ 47
-- [ ] Confirmar uma interpretação nos serviços:
-  - O item "Teste de estilos presencial com dossiê R$ 200" foi tratado como **Teste de Cores presencial com dossiê**, junto com o virtual de R$ 200 (o desconto de grupo também é de cores).
+- [x] Teste de Cores confirmado: presencial com dossiê ou virtual com sessão explicativa, R$ 200, 1h.
 - [x] Desconto de grupo confirmado: R$ 50 por pessoa em grupo de 5 (teste de cores presencial).
 - [x] E-book confirmado: e-book + 6 módulos com aulas e conteúdos bônus, R$ 47.
 - [ ] Textos provisórios escritos por nós, que precisam de aprovação:
@@ -34,6 +33,6 @@ Comprimir as fotos antes (JPG com até ~200 KB).
 - [x] Depoimentos: os 4 textos já foram copiados do site atual
 
 ## Entrega
-- [ ] Aprovação do visual
-- [ ] Criar o repositório no GitHub e ativar o GitHub Pages
-- [ ] Trocar `og:url` e `og:image` no `<head>` pela URL completa do site publicado
+- [x] Aprovação do visual
+- [x] Publicado em https://santaelegancia.github.io/
+- [x] `og:url`, `og:image`, `twitter:image` e canonical com a URL completa
