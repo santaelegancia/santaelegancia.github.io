@@ -18,7 +18,7 @@ Comprimir as fotos antes (JPG com até ~200 KB).
 - [x] Teste de Cores confirmado: presencial com dossiê ou virtual com sessão explicativa, R$ 200, 1h.
 - [x] Desconto de grupo confirmado: R$ 50 por pessoa em grupo de 5 (teste de cores presencial).
 - [x] E-book confirmado: e-book + 6 módulos com aulas e conteúdos bônus, R$ 47.
-- [ ] Textos provisórios escritos por nós, que precisam de aprovação:
+- [x] Textos escritos por nós, aprovados pela cliente em 2026-10-04:
   - `hero.kicker`: "Consultoria de imagem e estilo"
   - `hero.subtitulo`: "Online e sob medida, para você se vestir com verdade, leveza e propósito."
   - `hero.linkWhatsapp`: "ou fale direto com a Vanessa"
